@@ -182,7 +182,6 @@ namespace MatrixCalculatorApp
             return determinant;
         }
 
-        // Function to create a submatrix for determinant calculation
         private int[,] CreateSubMatrix(int[,] matrix, int excludeRow, int excludeCol)
         {
             int size = matrix.GetLength(0);
